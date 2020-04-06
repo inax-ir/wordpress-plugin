@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: wp-jalali v5.0.0-RC3\n"
+"Project-Id-Version: inax v5.0.0-RC3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2020-04-05 10:26+0430\n"
+"PO-Revision-Date: 2020-04-06 20:43+0430\n"
 "Last-Translator: simanet <info@sng.co.ir>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -12,370 +12,65 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 2.3\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
-"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
 "X-Textdomain-Support: yes\n"
 "Language: fa_IR\n"
 "X-Poedit-SearchPath-0: .\n"
 
 # @ inax
-#: inc/wp-jalali-admin-option.php:9
+#: inc/inax-admin-option.php:9
 msgid "wp persian option"
 msgstr "تنظیمات آینکس"
 
 # @ inax
-#: inc/wp-jalali-admin-option.php:24 inc/wp-jalali-admin.php:123
-msgid "wp-persian news Blog"
-msgstr "نمایش اخبار آینکس"
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:25 inc/wp-jalali-admin.php:135
-msgid "wp-persian planet"
-msgstr "نمایش سیاره آینکس"
-
-# @ inax
 #. translators: plugin header field 'Name'
-#: wp-jalali.php:0
-msgid "wp-jalali"
+#: inax.php:0
+msgid "inax"
 msgstr "آینکس"
 
 # @ inax
-#: inc/wp-jalali-admin.php:118
-msgid "WordPress Development Blog"
-msgstr "نمایش سیاره آینکس انگلیسی"
-
-# @ inax
-#: inc/wp-jalali-admin.php:130
-msgid "Other WordPress News"
-msgstr "نمایش اخبار وردپرس انگلیسی"
-
-# @ inax
-#: widget/widget_archive.php:9 widget/widget_archive.php:16
-#: widget/widget_archive.php:92
-msgid "jalali archive"
-msgstr "بایگانی شمسی"
-
-# @ inax
-#: widget/widget_archive.php:9
-msgid "jalali archive widget"
-msgstr "ابزارک بایگانی شمسی"
-
-# @ inax
-#: widget/widget_archive.php:33 widget/widget_calendar.php:22
-msgid "title"
-msgstr "عنوان ابزارک"
-
-# @ inax
-#: widget/widget_archive.php:40
-msgid "yearly"
-msgstr "سالیانه"
-
-# @ inax
-#: widget/widget_archive.php:45
-msgid "monthly"
-msgstr "ماهیانه"
-
-# @ inax
-#: widget/widget_archive.php:50
-msgid "daily"
-msgstr "روزانه"
-
-# @ inax
-#: widget/widget_archive.php:55
-msgid "post by post"
-msgstr "نوشته به نوشته"
-
-# @ inax
-#: widget/widget_archive.php:60
-msgid "link count(zero to unlimit)"
-msgstr "تعداد (0 برای نمایش همه)"
-
-# @ inax
-#: widget/widget_archive.php:67
-msgid "show count of post (not work in post by post)"
-msgstr "نمایش تعداد نوشته‌ها (به استثنای حالت نوشته به نوشته)"
-
-# @ inax
-#: widget/widget_archive.php:73
-msgid "show dropdown list (not work in post by post)"
-msgstr "نمایش به صورت لیست بازشو (به استثنای حالت نوشته به نوشته)"
-
-# @ inax
-#: widget/widget_calendar.php:9 widget/widget_calendar.php:15
-#: widget/widget_calendar.php:45
-msgid "jalali calendar"
-msgstr "تقویم شمسی"
-
-# @ inax
-#: widget/widget_calendar.php:9
-msgid "jalali calendar widget"
-msgstr "ابزارک تقویم شمسی"
-
-# @ inax
-#: widget/widget_calendar.php:29
-msgid "jcalendar short name of week"
-msgstr "نمایش نام ایام هفته بصورت خلاصه"
-
-# @ default
-#. translators: Calendar caption: 1: month name, 2: 4-digit year
-#: widget/widget_calendar.php:168
-#, php-format
-msgctxt "calendar caption"
-msgid "%1$s %2$s"
-msgstr ""
-
-# @ inax
-#: widget/widget_calendar.php:200 widget/widget_calendar.php:202
-#: widget/widget_calendar.php:212 widget/widget_calendar.php:214
-#, php-format
-msgid "View posts for %1$s %2$s"
-msgstr "نمایش نوشته‌های  %1$s %2$s"
-
-# @ inax
-#: wp-jalali-init.php:183
-msgid "Powered BY persian wordpress"
-msgstr "قدرت گرفته از وردپرس فارسی"
-
-# @ inax
-#: wp-jalali-init.php:118
+#: inax-init.php:118
 msgid "setting"
 msgstr "تنظیمات"
 
 # @ inax
-#. translators: plugin header field 'Description'
-#: wp-jalali.php:0
-msgid ""
-"Full Jalali calendar support for Wordpress and localization improvements for "
-"Persian/Afghan/Tajik users."
-msgstr ""
-"پشتیبانی کامل از تقویم جلالی، محلی‌سازی و بهبوده یافته برای کابران فارسی زبان/"
-"افغان/تاجیک وردپرس."
-
-# @ inax
-#. translators: plugin header field 'Author'
-#: wp-jalali.php:0
-msgid "Zakrot Web Solutions (in collaboration with WP-Persian team)"
-msgstr "زاکروت، راهکارهای مبتنی بر وب - با همکاری تیم وردپرس فارسی"
-
-# @ inax
 #. translators: plugin header field 'AuthorURI'
-#: wp-jalali.php:0
-msgid "http://zakrot.com/"
+#: inax.php:0
+msgid "http://inax.ir/"
 msgstr ""
 
 # @ inax
-#: inc/wp-jalali-admin-option.php:21
-msgid "How to Display news in Dashboard"
-msgstr "چگونگی نمایش اخبار در پیشخوان"
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:30 inc/wp-jalali-admin-option.php:33
-msgid "Visual Option"
-msgstr "تنظیمات دیداری"
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:36
-msgid ""
-"The font appear correction in Wordpress Dashboard, change font size and "
-"leading to better management of the environment."
-msgstr ""
-"اصلاح ظاهر مدیریت شامل تغییر قلم،‌ تغییر اندازه قلم‌ها و... که منجر به زیباتر "
-"شدن محیط مدیریت می‌شود."
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:42 inc/wp-jalali-admin-option.php:45
-msgid "Date and time Settings"
-msgstr "تنظیمات تاریخ و ساعت"
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:48
-msgid "Dates in all parts of Wordpress turn from Gregorian to Shamsi."
-msgstr "تاریخ تمامی بخش‌های وردپرس از میلادی به شمسی تبدیل شود."
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:53
-msgid ""
-"Automatically turned date in posts, for example yoursite.ir/2008/04/02/post to "
-"yoursite.ir/1387/01/13/post."
-msgstr ""
-"تبدیل خودکار تاریخ در نوشته‌ها، مثلا از yoursite.ir/2008/04/02/post به yoursite."
-"ir/1387/01/13/post."
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:58
-msgid ""
-"Dates in archive title become Shamsi, for example from March 2014 to Farvardin "
-"1387."
-msgstr ""
-"تاریخ در عنوان بایگانی مطالب به تاریخ شمسی تبدیل شود، مثلا از مارس 2014 به "
-"فروردین ۱۳۸۷."
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:63
-msgid ""
-"The default clock set Iran / Tehran, This option configured Time difference "
-"Iran/Tehran on WordPress and your Host."
-msgstr ""
-"ساعت پیش‌فرض ایران/تهران باشد، این گزینه به شما کمک می‌کند اختلاف ساعت ایران/"
-"تهران در وردپرس با سرور سایت شما تنظیم شود."
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:72
+#: inc/inax-admin-option.php:72
 msgid "Iran"
 msgstr "ایران"
 
 # @ inax
-#: inc/wp-jalali-admin-option.php:73
-msgid "Afghanistan"
-msgstr "افغانستان"
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:76
-msgid ""
-"Month names according to the Iran: Farvardin, Ordibehesht, etc /Afghanistan: "
-"Hamal, Thor, etc."
-msgstr ""
-"نام ماه‌ها مطابق با کشور ایران: فروردین، اردیبهشت و... /افغانستان: حمل، ثور "
-"و... ."
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:84 inc/wp-jalali-admin-option.php:87
-msgid "Convert numbers to Farsi"
-msgstr "تبدیل اعداد به فارسی"
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:90
-msgid "Posts"
-msgstr "متن نوشته‌ها"
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:95
-msgid "Posts Title"
-msgstr "عنوان نوشته‌ها"
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:101
-msgid "Excerpts"
-msgstr "متن خلاصه‌ها"
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:106
-msgid "Dates"
-msgstr "تاریخ‌ها"
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:111
-msgid "Comments"
-msgstr "متن دیدگاه‌ها"
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:116
-msgid "Comments Counter"
-msgstr "تعداد دیدگاه‌ها"
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:121
-msgid "Categories"
-msgstr "فهرست دسته‌ها"
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:131 inc/wp-jalali-admin-option.php:134
-msgid "Writings Rule"
-msgstr "قواعد نگارشی"
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:138
-msgid "Use \"٫\" Instead \".\" As an indication of decimal numbers."
-msgstr "استفاده از «٫» به جای «.» به عنوان نشانه اعداد اعشاری."
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:143
-msgid ""
-"Automatically convert the Arabic letters (ي) and (ك) to Persian letters (ی) "
-"and (ک) during the intelligent searching for all possible combinations."
-msgstr ""
-"تبدیل خودکار حروف «ي» و «ك» عربی به «ی» و «ک» فارسی در هنگام نمایش و جستجوی "
-"هوشمند برای تمامی ترکیب‌های ممکن در هنگام جستجو."
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:151 inc/wp-jalali-admin-option.php:154
-msgid "Specific Settings"
-msgstr "تنظیمات خاص"
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:159
-msgid ""
-"This option helps you save the settings youve selected to database when "
-"publish post, it will lower your server resource usage, this option is "
-"recommended Offer for Popular sites,"
-msgstr ""
-"این گزینه به شما کمک می‌کند تنظیمات مورد نظری که در بالا انتخاب کردید هنگام "
-"ذخیره نوشته صورت بگیرد، به این صورت میزان مصرف منابع سرور شما کمتر می‌شود، این "
-"گزینه به سایت‌های پربازدید توصیه می‌شود،"
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:161
-msgid "Note:"
-msgstr "دقت داشته باشید:"
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:163
-msgid "1) Your configured apply only on the texts from now going to Publish."
-msgstr ""
-"۱) تغییرات تنها بر روی نوشته‌هایی که از حالا به بعد ذخیره می‌کنید اعمال می‌شود."
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:165
-msgid ""
-"2) If you choose this option changes or amendments made ​​shall be irrevocable."
-msgstr ""
-"۲) در صورت انتخاب این گزینه تغییرات و اصلاحیه‌های انجام شده غیرقابل برگشت "
-"خواهند بود."
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:183
+#: inc/inax-admin-option.php:183
 msgid "Save Changes"
 msgstr "ذخیره‌ی تغییرات"
 
 # @ inax
-#. translators: plugin header field 'PluginURI'
-#: wp-jalali.php:0
-msgid "http://wp-persian.com/wp-jalali"
-msgstr ""
-
-# @ inax
-#. translators: plugin header field 'Version'
-#: wp-jalali.php:0
-msgid "5.0.0-RC3"
-msgstr ""
-
-# @ inax
-#: inc/wp-jalali-admin-option.php:68
-msgid "Show Full month name, instead Short format. like: March not MAR."
-msgstr ""
-
-# @ inax
-#: inc/wp-jalali-admin.php:12
-msgid "WP Jalali Options"
+#: inc/inax-admin.php:12
+msgid "inax Options"
 msgstr "تنظیمات آینکس"
 
 # @ inax
-#: inc/wp-jalali-admin.php:13
-msgid "WP Jalali"
-msgstr "آینکس"
+#: inc/inax-admin.php:13
+msgid "inax1"
+msgstr ""
 
 # @ inax
-#: inc/wp-jalali-admin.php:21
-msgid "WP Jalali About"
+#: inc/inax-admin.php:21
+msgid "inax About"
 msgstr "درباره"
 
 # @ inax
-#: inc/wp-jalali-admin.php:21
+#: inc/inax-admin.php:21
 msgid "About"
 msgstr "درباره"
 
 # @ inax
-#: inc/wp-jalali-admin.php:94
+#: inc/inax-admin.php:94
 #, php-format
-msgid "WP Jalali successful installed. please check %soptions%s"
+msgid "inax successful installed. please check %soptions%s"
 msgstr "افزونه آینکس با موفقیت نصب شد. لطفا %sتنظیمات%s را بررسی نمایید"

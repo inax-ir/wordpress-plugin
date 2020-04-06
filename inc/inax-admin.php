@@ -9,15 +9,15 @@ add_action('admin_menu', 'inax_reg_admin_meun_fn');
 function inax_reg_admin_meun_fn() {
     global $inax_admin_page;
     $inax_admin_page = add_menu_page(
-            __('WP Jalali Options', 'inax'), // page title 
-            __('WP Jalali', 'inax'), // menu title
+            __('inax Options', 'inax'), // page title 
+            __('inax', 'inax'), // menu title
             'manage_options', // user access capability
             'inax_admin_page', // menu slug
             'inax_admin_page_fn', //menu content function
-            plugins_url('/assets/img/plugin-icon.png', dirname(__FILE__)), // menu icon
+            plugins_url('/inc/templates/images/plugin-icon.png', dirname(__FILE__)), // menu icon
             82 // menu position
     );
-    add_submenu_page('inax_admin_page', __('WP Jalali About', 'inax'), __('About', 'inax'), 'manage_options', 'inax_help_page', 'inax_help_page_fn1');
+    add_submenu_page('inax_admin_page', __('inax About', 'inax'), __('About', 'inax'), 'manage_options', 'inax_help_page', 'inax_help_page_fn1');
     add_action('load-' . $inax_admin_page, 'inax_admin_save_option_page_fn');
 }
 
@@ -66,7 +66,7 @@ function inax_after_install_actions() {
 }
 
 function inax_admin_message(){
-    $Message=  sprintf( __('WP Jalali successful installed. please check %soptions%s','inax') ,'<a href="'.menu_page_url('inax_admin_page',FALSE).'">', '</a>' );
+    $Message=  sprintf( __('inax successful installed. please check %soptions%s','inax') ,'<a href="'.menu_page_url('inax_admin_page',FALSE).'">', '</a>' );
     echo '<div class="updated"><p>' . $Message . '</p></div>';
 	//echo '<div class="error"><p>' . $Message . '</p></div>';
 }

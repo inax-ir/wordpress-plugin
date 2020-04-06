@@ -1,4 +1,4 @@
-{include file="INAX_DIR/header.tpl"}
+{include file="header.tpl"}
 
 	<div class="row">
 		<div class="col-lg-12">
@@ -50,7 +50,7 @@
 			{if isset($mtn_active)  || isset($mci_active) || isset($rtl_active) }
 			<div class="panel panel-{if isset($mtn_active) }yellow{elseif isset($mci_active)}primary{elseif isset($rtl_active)}danger{/if}">	
 				<div class="panel-heading">
-					<i class="fa fa-sitemap fa-fw"></i> خرید شارژ اعتباری {if isset($mtn_active) }ایرانسل{elseif isset($mci_active)}همراه اول{elseif isset($rtl_active)}رایتل{/if} 
+					<i class="fa fa-sitemap fa-fw"></i> خرید شارژ {if isset($mtn_active) }ایرانسل{elseif isset($mci_active)}همراه اول{elseif isset($rtl_active)}رایتل{/if} 
 					<!--<a class="btn btn-default btn-xs btn-left" href="./?list"><i class="fa fa-database fa-fw"></i> شارژ های خریداری شده</a>-->
 					<a class="btn btn-default btn-xs btn-left" href="./"><i class="fa fa-database fa-fw"></i> برگشت</a>
 				</div>

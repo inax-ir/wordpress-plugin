@@ -1,4 +1,5 @@
 <?php
+//get_header(); 
 if( isset($_GET['list']) ){
 	$smarty->assign('charge_list',true);
 	$smarty->assign('title', 'شارژهای خریداری شده');
@@ -43,8 +44,9 @@ if( isset($_GET['list']) ){
 	}
 }
 else{
-	
+	//print_r($smarty);exit;
 	$smarty->assign('buy_charge',true);
+	
 	$smarty->assign('title', 'خرید شارژ مستقیم');
 
 	if(isset($_GET['MTN'])){
@@ -61,6 +63,11 @@ else{
 	}
 
 	if( isset($_POST['submit']) && ( isset($_GET['MTN']) || isset($_GET['MCI']) || isset($_GET['RTL']) ) ){
+		
+		if ( ! isset( $_POST['Token'] ) || ! wp_verify_nonce( $_POST['Token'], 'name_of_my_action' ) ) {
+		   print 'Sorry, your nonce did not verify.';
+		   exit;
+		}
 		
 		check_admin_referer( 'name_of_my_action', 'Token' );//wordpress
 		
@@ -166,5 +173,6 @@ else{
 
 if(isset($error_msg)){$smarty->assign('error_msg',$error_msg);}
 if(isset($success_msg)){$smarty->assign('success_msg',$success_msg);}
-$smarty->display( INAX_DIR . '/templates/topup.tpl');
+$smarty->display( dirname( __FILE__ ) . '/templates/topup.tpl');
+//get_footer(); 
 ?>

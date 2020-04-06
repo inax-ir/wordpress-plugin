@@ -39,6 +39,10 @@ Domain Path: /languages
 defined('INAX_DIR') or define('INAX_DIR',  dirname(__FILE__).DIRECTORY_SEPARATOR);
 defined('INAX_DIR2') or define('INAX_DIR2',  dirname(__FILE__));
 defined('INAX_Main_File_Path') or define('INAX_Main_File_Path',  __FILE__ );//inc/db.php
+//echo $plugins_url 		= plugins_url('/inc', __FILE__);
+
+
+defined('plugins_img_url') or define('plugins_img_url',  plugins_url('/inc/templates/images', __FILE__ ));
 /* =================================================================== */
 
 /**

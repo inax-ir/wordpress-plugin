@@ -9,7 +9,7 @@ global $inax_option;
     <h2><?php _e('wp persian option', 'inax'); ?></h2>
     <div class="inax_option_logo">
         <a href="http://wp-persian.com" target="_BLANK" title="وردپرس فارسی">
-            <img src="<?php echo plugins_url('/assets/img/inax-80x80.png', dirname(__FILE__)); ?>" />
+            <img src="<?php echo plugins_url('/inc/templates/images/inax-80x80.png', dirname(__FILE__)); ?>" />
         </a>
     </div>
 

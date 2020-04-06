@@ -48,7 +48,7 @@
 
 			{if isset($mtn_active)  || isset($mci_active) || isset($rtl_active) }
 			<div class="panel panel-{if isset($mtn_active) }yellow{elseif isset($mci_active)}primary{elseif isset($rtl_active)}danger{/if}">	
-				<div class="panel-heading"><i class="fa fa-sitemap fa-fw"></i> خرید شارژ اعتباری {if isset($mtn_active) }ایرانسل{elseif isset($mci_active)}همراه اول{elseif isset($rtl_active)}رایتل{/if} <!--<a class="btn btn-default btn-xs btn-left" href="./?list"><i class="fa fa-database fa-fw"></i> شارژ های خریداری شده</a>--></div>
+				<div class="panel-heading"><i class="fa fa-sitemap fa-fw"></i> خرید شارژ {if isset($mtn_active) }ایرانسل{elseif isset($mci_active)}همراه اول{elseif isset($rtl_active)}رایتل{/if} <!--<a class="btn btn-default btn-xs btn-left" href="./?list"><i class="fa fa-database fa-fw"></i> شارژ های خریداری شده</a>--></div>
 				<div class="panel-body">
 				
 					<div class="alert alert-info">لطفا از بخش زیر شماره تلفن و مبلغ شارژ را وارد نمائید</div>
