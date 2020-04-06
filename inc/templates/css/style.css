@@ -1,0 +1,88 @@
+.btn-left{
+	float:left;
+}
+.panel-green .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
+}
+
+.panel-green a {
+    color: #5cb85c;
+}
+
+.panel-green a:hover {
+    color: #3d8b3d;
+}
+
+.panel-red {
+    border-color: #d9534f;
+}
+
+.panel-red .panel-heading {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.panel-red a {
+    color: #d9534f;
+}
+
+.panel-red a:hover {
+    color: #b52b27;
+}
+
+.panel-yellow {
+    border-color: #F8B518;
+}
+
+.panel-yellow .panel-heading {
+    border-color: #F8B518;
+    color: #fff;
+    background-color: #F8B518;
+}
+
+.panel-yellow a {
+    color: #F8B518;
+}
+
+.panel-yellow a:hover {
+    color: #df8a13;
+}
+
+.panel-perple {
+    border-color: #9E00C6;
+}
+
+.panel-perple .panel-heading {
+    border-color: #9E00C6;
+    color: #fff;
+    background-color: #9E00C6;
+}
+
+.panel-perple a {
+    color: #9E00C6;
+}
+
+.panel-perple a:hover {
+    color: #6F008A;
+}
+
+.panel-gray {
+    border-color: #A11D2A;
+}
+
+.panel-gray .panel-heading {
+    border-color: #A11D2A;
+    color: #fff;
+    background-color: #A11D2A;
+}
+
+.panel-gray a {
+    color: #A11D2A;
+}
+
+.panel-gray a:hover {
+    color: #74141E;
+}
